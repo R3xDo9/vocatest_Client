@@ -1,0 +1,71 @@
+/* ResponseDataPage.css */
+.results {
+  text-align: center;
+  height: 700px;
+  margin: 20px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style: none; /* Elimina los bullet points */
+  display: flex;
+  padding: 0;
+}
+
+.pagination li {
+  margin: 0 4px; /* Espacio entre las pestañas */
+}
+
+.pagination a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.tableResults-container {
+  overflow-x: auto;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 800px; /* Ajusta la altura máxima según tus necesidades */
+  margin-top: 20px;
+}

@@ -1,0 +1,11 @@
+.directory{
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.directory p{
+ color: black;
+ text-align: center;
+ font-size: larger;
+}
