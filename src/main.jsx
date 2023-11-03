@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import '../css/index.css'
+import './index.css'
 import ResultsPage from './ResultsPage';
 import AppTest from './Test';
 import ResponseDataPage from './ResponseDataPage.jsx';

@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-undef */
-import '../css/App.css'
+import './App.css'
 // eslint-disable-next-line no-unused-vars
 import { Route, Routes, Link, useParams, Outlet} from 'react-router-dom'
-import { dataUser } from '../assets/dataUser'
+import { dataUser } from './assets/dataUser'
 import React from 'react'
 import { useRef } from 'react'
 // eslint-disable-next-line no-unused-vars

@@ -1,5 +1,5 @@
-import '../css/Test.css'
-import { useFetch } from '../useFetch.js';
+import './Test.css'
+import { useFetch } from './useFetch.js';
 import { useState, useEffect } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { Route, Routes, useNavigate} from 'react-router-dom'

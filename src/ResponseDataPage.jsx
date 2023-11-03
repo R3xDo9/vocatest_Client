@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import { useFetch } from '../useFetch.js';
+import { useFetch } from './useFetch.js';
 import {useNavigate} from 'react-router-dom'
 
-import '../css/ResponseDataPage.css';
+import './ResponseDataPage.css';
 
 const ResponseDataPage = () => {
   const navigate = useNavigate();

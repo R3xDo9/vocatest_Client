@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import { useFetch } from '../useFetch.js';
+import { useFetch } from './useFetch.js';
 
-import '../css/ProgramasU.css';
+import './ProgramasU.css';
 
 const ProgramasU = (params) => {
   const isParamsEmpty = Object.keys(params).length === 0;

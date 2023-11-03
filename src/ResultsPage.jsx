@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
-import { useFetch } from '../useFetch.js';
+import { useFetch } from './useFetch.js';
 
-import '../css/ResultsPage.css';
+import './ResultsPage.css';
 import ProgramasU from './ProgramasU';
 
 const ResultsPage = () => {
