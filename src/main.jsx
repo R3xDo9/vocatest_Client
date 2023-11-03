@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import ResultsPage from './ResultsPage';
-import AppTest from './Test';
+import ResultsPage from './ResultsPage.jsx';
+import AppTest from './Test.jsx';
 import ResponseDataPage from './ResponseDataPage.jsx';
 import Directory from './Directory.jsx';
 import { Route, Routes,  BrowserRouter} from 'react-router-dom'
