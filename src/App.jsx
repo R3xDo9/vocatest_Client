@@ -3,7 +3,7 @@
 import './App.css'
 // eslint-disable-next-line no-unused-vars
 import { Route, Routes, Link, useParams, Outlet} from 'react-router-dom'
-import { dataUser } from './assets/dataUser'
+import { dataUser } from './dataUser'
 import React from 'react'
 import { useRef } from 'react'
 // eslint-disable-next-line no-unused-vars
@@ -49,7 +49,7 @@ const Header = ({
   return (
     <div className='header'>
       <nav>
-      <Link to='/'><img src="src/assets/logoVocaTest.png" alt="" /></Link>
+      <Link to='/'><img src="src/logoVocaTest.png" alt="" /></Link>
         <div className="nav-links" id="navLinks">
         <ul>
           <li>
@@ -121,7 +121,7 @@ const Servicios= React.forwardRef((props, ref) => {
 
       <div className="row">
         <div className="campus-col">
-          <img src="src/assets/london.png"/>
+          <img src="src/london.png"/>
           <div className="layer">
             <Link to='/test'>
               <h3>Test</h3>
@@ -130,14 +130,14 @@ const Servicios= React.forwardRef((props, ref) => {
         </div>
 
         <div className="campus-col">
-          <img src="src/assets/newyork.png" alt="" />
+          <img src="src/newyork.png" alt="" />
           <div className="layer">
             <Link to='/programas-data' ><h3>Directorio</h3></Link>
           </div>
         </div>
 
         <div className="campus-col">
-          <img src="src/assets/washington.png" alt="" />
+          <img src="src/washington.png" alt="" />
           <div className="layer">
             <Link to='/respuestas-data'><h3>Datos</h3></Link>
           </div>
@@ -155,7 +155,7 @@ const Facilities=React.forwardRef((props, ref) => {
       Beneficios de conocer tu vocación
       <div className="row">
         <div className="facilities-col">
-          <img src="src/assets/library.png" alt="" />
+          <img src="src/library.png" alt="" />
           <div className="layer-fac">
             <h3>Satisfacción personal.</h3>
             <p>
@@ -167,7 +167,7 @@ const Facilities=React.forwardRef((props, ref) => {
         </div>
 
         <div className="facilities-col">
-          <img src="src/assets/basketball.png" alt="" />
+          <img src="src/basketball.png" alt="" />
           <div className="layer-fac">
             <h3>Motivación y compromiso.</h3>
             <p>
@@ -179,7 +179,7 @@ const Facilities=React.forwardRef((props, ref) => {
         </div>
 
         <div className="facilities-col">
-          <img src="src/assets/cafeteria.png" alt="" />
+          <img src="src/cafeteria.png" alt="" />
           <div className="layer-fac">
             <h3>Sentido de propósito.</h3>
             <p>
